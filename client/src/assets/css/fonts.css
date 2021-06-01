@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "AllOverAgain";
+  src: local("AllOverAgain"),
+    url(../fonts/AllOverAgainAllCaps.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "PermanentMarker-Regular";
+  src: local("PermanentMarker-Regular"),
+    url(../fonts/PermanentMarker-Regular.ttf) format("truetype");
+}
