@@ -59,7 +59,7 @@ export default function Actors({ casts, crews }) {
             container
             style={{
               display: `${
-                casts.length === 8 || casts.length < 8 ? "none" : "flex"
+                casts.length === 8 || casts.length < 8 ? "none" : ""
               }`,
               flexDirection: "row",
               alignItems: "center",
@@ -113,7 +113,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
 
     //  margin: "0px 15px 0px 15px",
-    margin: `0px ${theme.spacing(2)}px 0px ${theme.spacing(2)}px`,
+    /*   margin: `0px ${theme.spacing(2)}px 0px ${theme.spacing(2)}px`, */
     // padding: theme.spacing(1),
   },
   containerItensCast: {

@@ -95,7 +95,7 @@ export default function PageMovie({ match }) {
               <Actors casts={MovieDetails.casts} crews={MovieDetails.crews} />
             </>
           )}
-          <>
+          <div>
             {recommend.results.length !== 0 ? (
               <MovieListRow
                 movie={recommend}
@@ -116,7 +116,7 @@ export default function PageMovie({ match }) {
                   : "THERE ARE NO RECOMMENDED FOR THIS FILM :(".toString()}
               </h2>
             )}
-          </>
+          </div>
         </>
       ) : (
         <div

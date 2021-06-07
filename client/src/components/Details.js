@@ -8,7 +8,7 @@ import {
 } from "@material-ui/core";
 
 import imdb from "../assets/images/imdb.svg";
-import tmdb from "./../assets/images/tmdb01 1 32.svg";
+import tmdb from "./../assets/images/tmdb.svg";
 
 import StarRoundedIcon from "@material-ui/icons/StarRounded";
 import StarOutlineRoundedIcon from "@material-ui/icons/StarBorderRounded";
@@ -69,6 +69,7 @@ export default function Details({ details, certification }) {
       style={{
         background: `url(${backdrop_path}) no-repeat top fixed `,
         backgroundSize: "135.0rem",
+        /*  background: "gray", */
       }}
     >
       <Grid
@@ -403,6 +404,9 @@ const useStyles = makeStyles((theme) => ({
       height: "220px",
       margin: "10px 0 10px 0",
       padding: "5px",
+    },
+    pMovie: {
+      fontSize: "10px",
     },
   },
 

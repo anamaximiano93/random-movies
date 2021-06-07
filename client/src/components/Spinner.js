@@ -27,7 +27,7 @@ export default function Spinner() {
 }
 const useStyles = makeStyles((theme) => ({
   containerBackdrop: {
-    zIndex: 99,
+    zIndex: 100,
     position: "fixed",
     left: 0,
     top: 0,

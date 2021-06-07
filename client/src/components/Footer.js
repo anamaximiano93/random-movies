@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles, Typography } from "@material-ui/core";
 import HeartIcon from "@material-ui/icons/Favorite";
 import CopyrightIcon from "@material-ui/icons/Copyright";
-import tmdb from "./../assets/images/tmdb01 1.svg";
+import tmdb from "./../assets/images/tmdb-footer.svg";
 import { useSelector } from "react-redux";
 
 export default function Footer() {

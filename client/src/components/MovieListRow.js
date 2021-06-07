@@ -60,7 +60,7 @@ export default function MovieListRow({ movie, linkPageMovie, marginStyles }) {
         >
           <div
             id="left"
-            style={{ left: 0, display: movie.results.length < 10 && "none" }}
+            style={{ left: 0 }}
             className={classes.navigateIcon}
             onClick={handleLeftArrow}
           >
@@ -69,7 +69,7 @@ export default function MovieListRow({ movie, linkPageMovie, marginStyles }) {
 
           <div
             id="right"
-            style={{ right: 0, display: movie.results.length < 10 && "none" }}
+            style={{ right: 0 }}
             className={classes.navigateIcon}
             onClick={handleRightArrow}
           >

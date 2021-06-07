@@ -174,4 +174,21 @@ const useStyles = makeStyles((theme) => ({
     overflowX: "hidden",
   },
  */
+  [theme.breakpoints.down("sm")]: {
+    movieGrid: {
+      display: "flex",
+      textAlign: "center",
+      justifyContent: "center",
+    },
+  },
+
+  [theme.breakpoints.down("md")]: {
+    movieGrid__listarea: {
+      display: "flex",
+      flexDirection: "row",
+      flexWrap: "wrap",
+      justifyContent: "center",
+      textAlign: "left !important",
+    },
+  },
 }));
