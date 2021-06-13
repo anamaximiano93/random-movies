@@ -19,9 +19,9 @@
 </p>
 </h1>
 
-## O **Random Movies** é uma aplicação que exibe informações de filmes como por exemplo sua sinopse, diretores, atores, gêneros, classificação etária e o trailer promocional se estiver disponível. Em sua página inicial contém listas tituladas como os _“Top da semana”_ à _"Os mais votados"_ seguido a base do catálogo do **TMDB**.
+### O **Random Movies** é uma aplicação que exibe informações de filmes como por exemplo sua sinopse, diretores, atores, gêneros, classificação etária e o trailer promocional se estiver disponível. Em sua página inicial contém listas tituladas como os _“Top da semana”_ à _"Os mais votados"_ seguido a base do catálogo do **TMDB**.
 
-## Na página **Roullete** com a funcionalidade que deu origem ao nome da App você consegue filtrar filmes por ano de lançamentos, até 5 gêneros e o rating, onde será sorteado um filme é apresentado a tela ou direcionado a sua página.
+### Na página **Roullete** com a funcionalidade que deu origem ao nome da App você consegue filtrar filmes por ano de lançamentos, até 5 gêneros e o rating, onde será sorteado um filme é apresentado a tela ou direcionado a sua página.
 
 <br>
 
@@ -33,7 +33,7 @@
 
 <br>
 
-# ⚡Pré-requisitos
+## ⚡Pré-requisitos
 
 ### Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). Além disso é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
@@ -41,7 +41,7 @@
 
 <br>
 
-# 🚀 Como executar o projeto
+## 🚀 Como executar o projeto
 
 ### 🎲 Clonando o Projeto e Instalando as Dependências:
 
@@ -77,7 +77,7 @@ $ yarn start
 
 ```
 
-# 🛠 Tecnologias
+## 🛠 Tecnologias
 
 ### As seguintes ferramentas, frameworks foram usadas na construção do projeto:
 
