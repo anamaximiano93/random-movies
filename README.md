@@ -96,12 +96,12 @@ $ yarn start
 <br>
 
 <div align="center">
-<a href="http://random-movies-app.herokuapp.com/api/api-docs/" target="blank_">
+<a href="http://random-movies-app.herokuapp.com/api/api-docs/" target="_blank">
 
 <img src="https://img.shields.io/badge/Swagger-Doc-green?style=for-the-badge&logo=swagger">
 
 </a>
-<a href="https://random-movies-app.herokuapp.com/" target="blank_">
+<a href="https://random-movies-app.herokuapp.com/" target="_blank">
 
 <img src="https://img.shields.io/badge/Heroku-App-blueviolet?style=for-the-badge&logo=heroku">
 
