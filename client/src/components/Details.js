@@ -16,6 +16,9 @@ import Rating from "@material-ui/lab/Rating";
 import AccessAlarmsIcon from "@material-ui/icons/AccessAlarms";
 import EventAvailableIcon from "@material-ui/icons/EventAvailable";
 
+import backdrop_path_default from "../assets/images/backdrop_path_default.svg";
+import poster_path_default from "../assets/images/poster_path_default.svg";
+
 import {
   getTimeFromMins,
   getGernesfromArrytostring,
@@ -67,9 +70,10 @@ export default function Details({ details, certification }) {
     <Grid
       container
       style={{
-        background: `url(${backdrop_path}) no-repeat top fixed `,
+        background: `url(${
+          backdrop_path === null ? backdrop_path_default : backdrop_path
+        }) no-repeat top fixed `,
         backgroundSize: "135.0rem",
-        /*  background: "gray", */
       }}
     >
       <Grid
@@ -88,13 +92,13 @@ export default function Details({ details, certification }) {
         >
           <div className={classes.wrapper}>
             <img
-              src={poster_path}
+              src={poster_path === null ? poster_path_default : poster_path}
               alt={title}
               title={title}
               className={classes.blurred}
             />
             <img
-              src={poster_path}
+              src={poster_path === null ? poster_path_default : poster_path}
               alt={title}
               title={title}
               className={classes.cover}

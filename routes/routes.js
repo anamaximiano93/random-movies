@@ -1,6 +1,9 @@
 const express = require("express");
 const randomRouter = express.Router();
 
+const swaggerUi = require("swagger-ui-express");
+const swaggerDocument = require("../swagger.json");
+
 const serviceRandom = require("../services/randomServices.js");
 
 randomRouter.post("/roulette/:language", serviceRandom.randomMovies);
@@ -24,5 +27,12 @@ randomRouter.post("/search/:language", serviceRandom.searchMovies);
 randomRouter.post("/search/:language/:page", serviceRandom.searchMovies);
 randomRouter.get("/movie_details/:language/:id", serviceRandom.moviesDetails);
 randomRouter.get("/genres/:language", serviceRandom.genresMovies);
+
+// rota da documentação (swaggerUi)
+randomRouter.use(
+  "/api-docs",
+  swaggerUi.serve,
+  swaggerUi.setup(swaggerDocument)
+);
 
 module.exports = randomRouter;

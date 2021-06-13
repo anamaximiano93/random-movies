@@ -67,7 +67,7 @@ export default function Roulette() {
 
   useEffect(() => {
     // title page
-    document.title = "Roulette" + " | " + process.env.REACT_APP_NAME;
+    document.title = "Roulette" + " | " + "Random Movies";
 
     const getGenre = async () => {
       const { data } = await api.get(`/genres/${languagePage}`);

@@ -31,9 +31,7 @@ export default function PageMovieList(props) {
   useEffect(() => {
     // title page
     document.title =
-      LanguagePageFunction().toLocaleLowerCase() +
-      " | " +
-      process.env.REACT_APP_NAME;
+      LanguagePageFunction().toLocaleLowerCase() + " | " + "Random Movies";
     const loadDataMovieList = async () => {
       try {
         const { data } = await api.get(`/${route}/${languagePage}/${page_}`);

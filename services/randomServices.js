@@ -375,7 +375,6 @@ async function recommendationsMovies(req, res) {
     //  logger.info(`POST /recommendationsMovies - ${page}`);
     return;
   } catch (error) {
-    console.log({ error: error });
     if (error.response) {
       const { status } = error.response;
 
@@ -746,7 +745,6 @@ async function dataMoviesDetails(resultsData, link) {
 
     const result = await data;
 
-    //console.log(result);
     // videos
     const videos = result.videos.results.map((item) => {
       return {

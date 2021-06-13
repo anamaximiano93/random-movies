@@ -27,7 +27,7 @@ export default function PageRecommended(props) {
     document.title =
       (languagePage === "pt-BR" ? "recomendações" : "recommendations") +
       " | " +
-      process.env.REACT_APP_NAME;
+      "Random Movies";
 
     const getRecommendation = async () => {
       console.log(props);

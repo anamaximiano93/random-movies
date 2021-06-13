@@ -1,4 +1,0 @@
-2021-06-07T16:09:23.078Z [random-movies-api] info: GET /popularMovies - 1
-2021-06-07T16:09:24.427Z [random-movies-api] info: GET /topRatedMovies - 1
-2021-06-07T16:28:29.160Z [random-movies-api] info: POST /randomMovies - 637693
-2021-06-07T16:29:07.437Z [random-movies-api] info: POST /randomMovies - 501929

@@ -28,7 +28,7 @@ export default function PageSearch(props) {
     document.title =
       (languagePage === "pt-BR" ? "Pesquisa" : "Search") +
       " | " +
-      process.env.REACT_APP_NAME;
+      "Random Movies";
     setResetStates();
     const getSearch = async () => {
       try {

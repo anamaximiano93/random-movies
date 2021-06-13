@@ -51,8 +51,7 @@ export default function PageMovie({ match }) {
         );
 
         const resultsMovie = await dataMovie.data;
-        document.title =
-          resultsMovie.results.title + " | " + process.env.REACT_APP_NAME;
+        document.title = `${resultsMovie.results.title} (${resultsMovie.results.year}) | Random Movies`;
 
         setMovieDetails(resultsMovie.results);
         setcertificationState(

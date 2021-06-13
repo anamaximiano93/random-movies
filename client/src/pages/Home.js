@@ -34,7 +34,6 @@ const MovieHomeArray = [
 ];
 
 export default function Home() {
-  // console.log(props);
   const [MovieHome, setMovieHome] = useState([]);
   //const [languagePage,setLanguagePage] =useState(language);
 
@@ -57,7 +56,6 @@ export default function Home() {
         element.results.push(...data.results);
       }
     }
-    // console.log(MovieHomeArray)
 
     const results = {
       data: value.toLocaleDateString("pt-BR"),
@@ -68,15 +66,13 @@ export default function Home() {
     setMovieHome([...MovieHomeArray]);
 
     localStorage.setItem("movieslocal", JSON.stringify(results));
-    //window.location.reload()
   };
 
   useEffect(() => {
     // title page
     document.title =
-      (languagePage === "pt-BR" ? "Inicio" : "Home") +
-      " | " +
-      process.env.REACT_APP_NAME;
+      (languagePage === "pt-BR" ? "Inicio" : "Home") + " | " + "Random Movies";
+    //process.env.REACT_APP_NAME;
 
     localStorageMovies();
   }, [languagePage]);
