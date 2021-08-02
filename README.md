@@ -19,9 +19,9 @@
 </p>
 </h1>
 
-### O **Random Movies** é uma aplicação que exibe informações de filmes como por exemplo sua sinopse, diretores, atores, gêneros, classificação etária e o trailer promocional se estiver disponível. Em sua página inicial contém listas tituladas como os _“Top da semana”_ à _"Os mais votados"_ seguido a base do catálogo do **TMDB**.
+<p>O <b>Random Movies</b> é uma aplicação que exibe informações de filmes como por exemplo sua sinopse, diretores, atores, gêneros, classificação etária e o trailer promocional se estiver disponível. Em sua página inicial contém listas tituladas como os <i>“Top da semana”</i> à <i>"Os mais votados"</i> seguido a base do catálogo do <b>TMDB</b>.</p>
 
-### Na página **Roullete** com a funcionalidade que deu origem ao nome da App você consegue filtrar filmes por ano de lançamentos, até 5 gêneros e o rating, onde será sorteado um filme é apresentado a tela ou direcionado a sua página.
+<p> Na página <b>Roullete</b> com a funcionalidade que deu origem ao nome da App você consegue filtrar filmes por ano de lançamentos, até 5 gêneros e o rating, onde será sorteado um filme é apresentado a tela ou direcionado a sua página.</p>
 
 <br>
 
@@ -35,7 +35,7 @@
 
 ## ⚡Pré-requisitos
 
-### Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). Além disso é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
+#### Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). Além disso é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
 - obs: Foi utilizado o [Yarn](https://yarnpkg.com/) como instalador de dependências.
 
