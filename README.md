@@ -24,13 +24,7 @@
 <p> Na página <b>Roullete</b> com a funcionalidade que deu origem ao nome da App você consegue filtrar filmes por ano de lançamentos, até 5 gêneros e o rating, onde será sorteado um filme é apresentado a tela ou direcionado a sua página.</p>
 
 <br>
-
-<div>
-
 <img src="https://docs.google.com/uc?id=1R-KA7_hMBI_TDcLeo4jHNpeRZCRqzmHV">
-
-</div>
-
 <br>
 
 ## ⚡Pré-requisitos
